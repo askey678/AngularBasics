@@ -1,0 +1,10 @@
+h3{
+    color: rgba(19, 13, 43, 0.527);
+}
+.wrapper{
+    margin: 0px auto;
+    /* width: 1100px; */
+    align-items: center;
+    display: flexbox;
+    background: #fcf0cf;
+}

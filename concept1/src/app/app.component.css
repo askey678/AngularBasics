@@ -1,0 +1,19 @@
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: expanded;
+    color: #1b3742;
+}
+
+h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-stretch: expanded;
+    color: rgb(133, 118, 101);
+}
+
+h6 {
+    color: #cc8282;
+}
+
+button {
+    color: seagreen;
+}

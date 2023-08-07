@@ -1,0 +1,10 @@
+<div class="search-div" [ngClass]="{changeBackground: insertedValue != ''}">
+<span><b>Search here:</b></span>
+<!-- <input type="text" (input)="onEveryInput($event)">   // concept of event binding-->
+<input type="text" [(ngModel)]="insertedValue">
+
+<!-- we want to display this below mentioned span conditionally!
+         it should not appear after user trying to search anything. so we will use the ngIf directive here: -->
+<span *ngIf="insertedValue!=''"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;you are
+        searching:</b>{{insertedValue}}</span>
+    </div>
